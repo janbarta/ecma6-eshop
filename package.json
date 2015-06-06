@@ -27,7 +27,10 @@
     "bcryptjs": "*",
     "hapi": "*",
     "hapi-auth-basic": "*",
-    "lout": "*"
+    "lout": "*",
+    "mongodb": "^2.0.33",
+    "mongoose": "^4.0.4",
+    "mongoose-q": "0.0.17"
   },
   "devDependencies": {
     "chai": "*",

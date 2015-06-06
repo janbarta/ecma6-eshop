@@ -27,6 +27,15 @@ class Routes{
         });
 
         this.server.route({
+            method: 'POST',
+            path: '/categories/insert',
+            handler: controllers.categories.insert,
+            config: {
+                auth: 'simple'
+            }
+        });
+
+        this.server.route({
             method: 'GET',
             path: '/products/bycategory',
             handler: controllers.products.getByCategory,
